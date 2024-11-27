@@ -1,0 +1,202 @@
+
+//Exemplo 1 for
+// A variável i é igual a 0
+// i é menor ou igual a 4
+// i++ incrementa a variável i em um a cada iteração do loop
+
+for (let i = 0; i <= 4; i++) {
+  console.log(i);
+}
+
+
+
+//Exemplo 2 for 
+// i é menor ou igual a 7
+// A variável i é igual a 1
+// i++ incrementa a variável i em um a cada iteração do loop
+for (let i = 1; i <= 7; i++) {
+console.log("Olá!");
+}
+
+
+//Exemplo 3 for 
+// A variável i é igual a 1
+// i é menor ou igual a 10
+// i++ incrementa a variável i em um a cada iteração do loop
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+//exemplo 4 for
+// a variável i é igual a 10
+// i é maior ou igual a 0
+// i-- decrementa a variável i em um a cada iteração do loop (subtrai a variável)
+for (let i = 10; i >= 0; i--) {
+console.log(i);
+}
+
+
+//Exemplo 5 for
+// a variável i é igual a 0
+// i é menor que 2
+// i++ incrementa a variável i em um a cada iteração do loop
+for (let i = 0; i < 2; i++) {
+console.log("Bom dia");
+}
+
+
+
+//exemplo 1 while
+// a variável soma é igual a 0
+// a variável numero é igual a 1
+// soma é menor ou igual a 20
+// A expressão soma+=numero pega o valor atual de soma e adiciona o valor de numero a ele.
+// numero++ incrementa a variável numero em um a cada iteração do loop
+let soma = 0;
+let numero = 1;
+
+while (soma <= 20) {
+    soma += numero;
+    console.log(`Número: ${numero}, Soma: ${soma}`);
+    numero++;
+}
+console.log(`A soma final é ${soma}, que é maior que 20.`);
+
+
+//exemplo 2 while
+//a variável contador é igual a 0
+//contador é menor que 5
+// contador++ incrementa a variável contador em um a cada iteração do loop
+let contador = 0;
+while (contador < 5) {
+    console.log("Boa noite");
+    contador++;
+}
+
+
+//exemplo 3 while
+//a variável num (número) é igual a 0
+//num é menor ou igual a 16
+// para verificar se o valor atual de num é par, usamos a expressão (num % 2 === 0) com a estrutura de decisão if
+// num++ incrementa a variável num em um a cada iteração do loop
+let num = 0;
+
+while (num <= 16) {
+    if (num % 2 === 0) {
+        console.log(num);
+    }
+    num++;
+}
+
+
+//exemplo 5 do...while
+// a variável num é igual a 0
+// num é menor ou igual a 20
+//para verificar se o valor atual de num é ímpar, usamos a expressão (num % 2 === 1) com a estrutura de decisão if
+//num++ incrementa a variável num em um a cada iteração do loop
+let num = 0;
+do {
+    if (num % 2 === 1) {
+        console.log(`Números ímpares: ${num}`);
+    }
+    num++;
+} while (num <= 20);
+
+
+
+
+//exemplo 4 while
+// a variável i é igual a 5
+// i é maior que 0
+// i-- decrementa a variável i em um a cada iteração do loop (subtrai a variável)
+let i = 5;
+while (i > 0) {
+    console.log(i);
+    i--;
+}
+
+//exemplo 5 while
+// a variável i é igual a 9
+// a variável multiplicacao é igual a 0
+// multiplicacao é menor ou igual a 10
+// A expressão i*multiplicacao soma o valor atual de i com o valor atual de multiplicacao
+// a expressão multiplicacao=multiplicacao+1 é usada para incrementar a variável multiplicacao em 1
+// i++ incrementa a variável i em um a cada iteração do loop
+let i = 9;
+let multiplicacao = 0;
+
+while (multiplicacao <= 10) {
+    console.log(`${i} x ${multiplicacao} = ${i*multiplicacao}`);
+    multiplicacao=multiplicacao+1
+}
+
+
+//exemplo 1 do...while
+// a variável i é igual a 1
+// i é menor ou igual a 5
+// i++ incrementa a variável i em um a cada iteração do loop
+let i = 1; 
+
+do {
+    console.log("Numero atual:", i);
+    i++;
+} while (i <= 5); 
+
+console.log("Numero maior que 5:", i);
+
+
+
+//exemplo 2 do...while
+// a variável num é igual a 7
+// num é menor ou igual a 9
+// num++ incrementa a variável num em um a cada iteração do loop
+let num = 7;
+do {
+    console.log(num);
+    num++;
+} while (num <= 9);
+
+
+
+//exemplo 3 do...while
+// a variável numero é igual a 0
+// a variável soma é igual a 1
+// soma é menor ou igual a 10
+// numero++ incrementa a variável numero em um a cada iteração do loop
+// A expressão soma+=numero pega o valor atual de soma e adiciona o valor de numero a ele
+let soma = 1;
+let numero = 0;
+do {
+    soma += numero;
+    console.log(`Número:${numero} Soma:${soma}`)
+    numero++;
+    
+} while (soma <= 10);
+console.log(`Soma final: ${soma}`);
+
+
+//exemplo 4 do...while
+// a variável contador é igual a 0
+// contador é menor que 5
+//contador++ incrementa a variável contador em um a cada iteração do loop
+let contador = 0;
+do {
+    console.log("Desenvolvimento de Sistemas");
+    contador++;
+} while (contador < 5);
+
+
+
+//exemplo 5 do...while
+// a variável num é igual a 0
+// num é menor ou igual a 20
+//para verificar se o valor atual de num é ímpar, usamos a expressão (num % 2 === 1) com a estrutura de decisão if
+//num++ incrementa a variável num em um a cada iteração do loop
+let num = 0;
+do {
+    if (num % 2 === 1) {
+        console.log(`Números ímpares: ${num}`);
+    }
+    num++;
+} while (num <= 20);
+
