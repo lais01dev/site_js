@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Estrutura de Repetição de JavaScript</title>
+</head>
+<body>
+    <nav>
+    <h1>Estruturas de Repetição de JavaScript</h1>
+    </nav>
+    <br>
+    <div class="margem">
+    <p>As estruturas de repetição, também conhecidas como loops, são recursos essenciais na programação. 
+        São elas que permitem que um bloco de código seja executado várias vezes, enquanto uma determinada condição é 
+        verdadeira.</p>
+    <p>A princípio, essa repetição pode ser controlada por um contador, condição lógica ou até mesmo por uma lista 
+        de elementos.</p>
+
+    <p>As  estruturas de repetição são importantes por várias razões, são elas:</p>
+    <ul>
+        <li><strong>Automatizção:</strong> Permitem a execução repetitiva de tarefas, automatizando processos que seriam tediosos se feitos manualmente;</li>
+        <li><strong>Eficiência:</strong> Aumentam a eficiência ao processar grandes volumes de dados rapidamente;</li>
+        <li><strong>Flexibilidade:</strong> Facilitam a criação de algoritmos que se adaptam a diferentes situações e dados.</li>
+    </ul>
+<h2>Diferenças entre as estruturas de repetição</h2>
+<p> As diferenças entre as estruturas de repetição for, while e do...while são que o <code>for</code> é geralmente usado quando 
+    sabemos quantas vezes queremos que o loop seja executado, o <code>while</code> é usado quando queremos repetir um bloco de código 
+    enquanto uma condição é verdadeira e o <code>do...while</code> garante que o bloco de código seja executado pelo menos uma vez.
+    
+    <h2>Estrutura "for" em Java Script</h2>
+    <p>A estrutura de repetição <code>for</code> é uma das mais utilizadas em programação, ela é usada para executar um bloco de código 
+        repetidamente até que uma condição especificada seja falsa.</p>
+
+    <p><b>Sintaxe da Estrutura <code>for</code></b></p>
+    <pre><code>for (inicialização; condição; incremento) {
+    // Bloco de código a ser executado enquanto a condição for verdadeira
+}</code></pre>
+<p>O loop começa com a inicialização, a variável. Depois verifica a condição. Em seguida, o bloco de código é executado 
+    se a condição for verdadeira. <br> Após cada iteração, o incremento (i++) ou decremento (i--) é aplicado.</p>
+    <br>
+    <p><b>Exiba os números de 0 a 4:</b></p>
+    <img src="img/exe1for.png" alt="">
+    <br>
+    <p><b>Saída:</b></p>
+    <img src="img/saiexe1for.png" alt="">
+    <br>
+    <br>
+    <p><b>Exiba a mensagem "Olá!" 7 vezes:</b></p>
+    <img src="img/exe2for.png" alt="">
+    <br>
+    <p><b>Saída:</b></p>
+    <img src="img/saiexe2for.png" alt="">
+    <br>
+    <br>
+    <p><b>Exiba números de 1 a 10:</b></p>
+    <img src="img/exe3for.png" alt="">
+    <br>
+    <p><b>Saída:</b></p>
+    <img src="img/saiexe3for.png" alt="">
+    <br>
+    <br>
+    <p><b>Exiba números de 10 até 0 (ordem decrescente):</b></p>
+    <img src="img/exe4for.png" alt="">
+    <br>
+    <p><b>Saída:</b></p>
+    <img src="img/saiexe4for.png" alt="">
+    <br>
+    <br>
+    <p><b>Exiba a mensagem "Bom dia" 2 vezes:</b></p>
+    <img src="img/exe5for.png" alt="">
+    <br>
+    <p><b>Saída:</b></p>
+    <img src="img/saiexe5for.png" alt="">
+    <br>
+<br>
+<br>
+    <h2>Estrutura "while" em Java Script</h2>
+    <p>O <code>while</code> é uma ferramenta poderosa em Java Script (e na maioria das linguagens de programação) que permite repetir 
+       um bloco de código enquanto uma condição for verdadeira. 
+       <br>É importante garantir que a condição do loop eventualmente se torne falsa para evitar loops infinitos.</p>
+
+    <p><b>Sintaxe da Estrutura <code>while</code></b></p>
+    <pre><code>while (condição) {
+    // Bloco de código a ser executado enquanto a condição for verdadeira
+}</code></pre>
+<p>O loop começa com a váriavel. Depois, a condição é aplicada a cada iteração. No final, o valor da variável é incrementado dentro 
+    do loop até que a condição não seja mais atendida.</p>
+
+ <br>
+ <p><b>Calcule a soma dos números até que o total seja maior que 20:</b></p>
+ <img src="img/exe1whi.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe1whi.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima a mensagem "Boa noite" 5 vezes:</b></p>
+ <img src="img/exe2whi.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe2whi.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima os valores pares entre os números de 0 até 16:</b></p>
+ <img src="img/exe3whi.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe3whi.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima os números de 5 até 1 (ordem decrescente):</b></p>
+ <img src="img/exe4whi.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe4whi.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima a tabuada do 9:</b></p>
+ <img src="img/exe5whi.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe5whi.png" alt="">
+ <br>
+ <br>
+ <br>
+
+    <h2>Estrutura "do...while" em Java Script</h2>
+    <p>A declaração <code>do...while</code> cria um loop que executa uma declaração até que o teste da condição for falsa. A condição 
+        é avaliada depois que o bloco de código é executado, resultando que uma declaração seja executada pelo menos 
+        uma vez.</p>
+
+    <p><strong>Sintaxe da Estrutura <code>do...while</code></strong></p>
+    <pre><code>do {
+    // Bloco de código a ser executado
+} while (condição);</code></pre>
+<p>O bloco de código é executado dentro do <b>do</b> uma vez antes de qualquer verificação da condição. Depois, a codição é verificada.
+Se for verdadeira, o bloco de código é executado novamente. <br> Se não for verdadeira, o loop termina.</p>
+<br>
+ <p><b>Faça um código que continue pedindo um valor aleatório até que o número seja maior que 5:</b></p>
+ <img src="img/exe1dow.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe1dow.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima números de 7 a 9:</b></p>
+ <img src="img/exe2dow.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe2dow.png" alt="">
+ <br>
+ <br>
+ <p><b>Some números até que a soma seja maior que 10:</b></p>
+ <img src="img/exe3dow.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe3dow.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima "Desenvolvimento de Sistemas" 5 vezes:</b></p>
+ <img src="img/exe4dow.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe4dow.png" alt="">
+ <br>
+ <br>
+ <p><b>Imprima números ímpares de 0 a 20:</b></p>
+ <img src="img/exe5dow.png" alt="">
+ <br>
+ <p><b>Saída:</b></p>
+ <img src="img/saiexe5dow.png" alt="">
+ <br>
+ <br>
+ <br>
+   <h3 class="h3">Exercícios para praticar:</h3>
+   <p><b>For:</b> Calcule a soma dos números de 1 até 50.</p>
+   <p><b>While:</b> Calcule a soma dos números até que a soma seja maior que 32.</p>
+   <p><b> Do...while:</b> Imprima os valores dos números de 1 até 18</p>
+    </div> 
+</body>
+</html>
